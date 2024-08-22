@@ -1,0 +1,27 @@
+/* mobile first */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 700px) {
+  body {
+    flex-direction: row;
+  }
+} */
+
+/* desktop first */
+
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+}
